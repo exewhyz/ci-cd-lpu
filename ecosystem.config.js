@@ -3,7 +3,7 @@ export default {
     {
       name: "backend-api",
 
-      script: "./server.js",
+      script: "server.js",
 
       instances: "max",
 
