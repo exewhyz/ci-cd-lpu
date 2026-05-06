@@ -1,9 +1,9 @@
-module.exports = {
+export default {
   apps: [
     {
       name: "backend-api",
 
-      script: "server.js",
+      script: "./server.js",
 
       instances: "max",
 
@@ -12,8 +12,6 @@ module.exports = {
       autorestart: true,
 
       watch: false,
-
-      max_memory_restart: "500M",
 
       env: {
         NODE_ENV: "production",
